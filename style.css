@@ -1,0 +1,138 @@
+body{
+    background-color: #1f2833 ;
+    color:#c5c6c7;
+}
+a{
+    text-decoration: none;
+    color: #c5c6c7;
+}
+.upperStrip{
+    width: 100%;
+    height:3vh ;
+    background-color: #45a29e;
+}
+#middle{
+    display: flex;
+    margin: 1vh;
+
+}
+#left{
+    height: 120vh;
+    width: 30vw;
+    background-color: #0b0c10;
+    color: #c5c6c7;
+    /* border: 2px solid #45a29e; */
+    /* text-align: center; */
+    margin-left: 3vh;
+    box-shadow: 15px 15px 25px #000000;
+}
+#pic {
+    padding-top: 5vh;
+    padding-bottom: 10px;
+   text-align: center;
+}
+#pic img{
+    height: 20vh;
+    width: 20vh;
+    border: 3px solid #66fcf1;
+    border-radius: 50%;
+}
+#name{
+    font-size: 1.75em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #94fff8;
+    font-weight: 700;
+    text-align: center;
+}
+.bio{
+    font-size: 1.1rem;
+    padding: 0px;
+}
+.bio ul li p{
+    margin:5px
+}
+
+.strips{
+    height: 5vh;
+    width: 15em;
+    margin-top: 2rem;
+    background-color:#66fcf1;
+    color: #000000;
+    font-weight: 600;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display:flex;
+    justify-content: left;
+    align-items: center;
+      /* padding: 2px 0em 0em 2em; */
+      border-top-right-radius: 5px;
+      border-bottom-right-radius: 5px;
+      /* box-shadow: 5px 5px 10px #66fcf2c8; */
+      /* box-shadow:inset 10px -10px 20px #45a29e, inset -10px 10px 20px #45a29e; */
+
+}
+.strips h3{
+ padding-left: 5em;
+ letter-spacing: 5px;
+}
+#contact ul {
+    list-style-type: none;
+    
+}
+#contact ul li p{
+    margin-left: 0px;
+}
+
+#right{
+    height: 120vh;
+    width: 65vw;
+    margin-left:8vw;
+    margin-top: 5vh;
+    /* background-color: aliceblue; */
+}
+.Title{
+    /* background-color: ; */
+    font-size: large;
+    letter-spacing: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.writeBox{
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    height: 25vh;
+    width: 55vw;
+    background-color: transparent;
+    box-shadow: 5px 5px 30px black , inset  -5px -5px 30px black;
+    border-radius: 1rem;
+ 
+    
+}   
+#eduWriteBx {
+    height: 20vh;
+}
+#eduWriteBx ul li {
+    width: 30rem;
+}
+/* .write{
+    font-family: 'Times New Roman', Times, serif;
+} */
+/* .writeBox p{
+    font-size: 1.1rem;
+    padding-left: 5rem;
+} */
+.writeBox ul{
+
+    padding:2rem 0px 0px 5rem;
+    height: 20vh;
+    list-style-type: none;
+    /* padding: 10px; */
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+
+}
+.writeBox ul li{
+    width: 10rem;
+    font-size: 1.1rem;
+    margin:10px;
+    /* background-color: #237a39; */
+}
